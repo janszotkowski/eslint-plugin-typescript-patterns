@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-typescript-patterns",
+  "version": "0.1.0",
+  "description": "ESLint rules for modern TypeScript patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "typescript",
+    "patterns"
+  ],
+  "author": "Jan Szotkowski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janszotkowski/eslint-plugin-typescript-patterns"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "files": [
+    "lib/",
+    "rules/",
+    "index.js",
+    "package.json"
+  ]
+}
